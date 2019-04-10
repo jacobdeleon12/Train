@@ -1,0 +1,42 @@
+body{
+    background: url(../assets/images/FRA_locomotive.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.display-4{
+    margin: 20px;
+}
+
+
+.lead{
+    margin: 20px;
+}
+
+.jumbotron{
+color: whitesmoke;
+background-color: rgb(109, 109, 109);
+opacity: .6;
+}
+
+tbody{
+    color: whitesmoke;
+    background-color:rgb(109, 109, 109);
+    opacity: .6;
+}
+
+.form-group{
+    color: whitesmoke;
+    
+}
+
+.form-control{
+    color: whitesmoke;
+    background-color:rgb(109, 109, 109);
+    opacity: .6;
+}
+
+footer{
+    margin: 155px;
+}
