@@ -76,10 +76,11 @@ database.ref().on("child_added", function (childSnapShot) {
     var tRemainder = diffTime % tFrequency;
 
     // Minute Until Train
-    var tMinutesTillTrain =  tFrequency - tRemainder;
+    var tMinutesTillTrain = tFrequency - tRemainder;
+
 
     // Next Train
-    var nextTrain = moment().add(tMinutesTillTrain, "minutes");
+    var nextTrain = moment().add(tMinutesTillTrain, "minutes").format("HH:mm");
 
     newRow.append($("<td>").text(nextTrain));
     newRow.append($("<td>").text(tMinutesTillTrain));
